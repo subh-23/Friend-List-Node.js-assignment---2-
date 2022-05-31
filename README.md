@@ -43,13 +43,13 @@ Start the server
 #### Get all friends
 
 ```http
-  /friends
+  GET /friends
 ```
 
 #### Get specific friend
 
 ```http
-  /friends/${id}
+  GET /friends/${id}
 ```
 
 | Parameter | Type     | Description                       |
