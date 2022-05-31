@@ -35,7 +35,7 @@ Start the server
 
 **Client:** Bootstrap,Ejs
 
-**Server:** Node, Express, Mongoose, MongoDB
+**Server:** NodeJs, ExpressJs, Mongoose, MongoDB
 
 
 ## API Reference
