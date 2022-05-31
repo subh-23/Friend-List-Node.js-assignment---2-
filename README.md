@@ -1,7 +1,7 @@
 
 # Friend List (Node.js assignment - 2)
 
-This project is based on a assignment for Fullstack intern role at Thinklabs
+This project is based on a assignment for Fullstack intern role at Talentglass.ai
 
 
 ## Run Locally
