@@ -33,7 +33,7 @@ Start the server
 
 ## Tech Stack
 
-**Client:** Bootstrap,Ejs
+**Client:** Bootstrap, Ejs
 
 **Server:** NodeJs, ExpressJs, Mongoose, MongoDB
 
