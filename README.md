@@ -52,6 +52,16 @@ Start the server
   GET /friends/${id}
 ```
 
+#### Post a friend
+
+```bash
+{
+  "name": "Elon Musk",
+  "nickname": "Elon"
+}
+  
+```
+
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `string` | **Required**. Id of item to fetch |
