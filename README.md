@@ -1,7 +1,7 @@
 
 # Friend List
 
-This project is based on a assignment for Fullstack intern role at Talentglass.ai
+This REST API project is based on a assignment for the Fullstack intern role at Talentglass.ai
 
 
 ## Run Locally
