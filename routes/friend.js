@@ -13,9 +13,11 @@ router.get('/', async (req, res) => {
     try {
         const allFriends = await Friend.find()
         res.json(allFriends)
+        // res.render(index, { users: allFriends })
     } catch (error) {
         //500= some error occurs with our database, nothing with API
         res.status(500).json(error)
+        // res.status(500).render(error)
     }
 })
 
@@ -27,12 +29,15 @@ router.get('/:id', async (req, res) => {
     try {
         if (oneFriend == null) {
             res.status(404).json({ message: "Cannot find subscriber" })
+            // res.status(404).send("Cannot find subscriber")
         }
         else {
             res.status(200).json(oneFriend)
+            // res.status(200).render('index', { users: oneFriend })
         }
     } catch (error) {
         res.status(500).json({ message: error.message })
+        // res.status(500).render(error)
     }
 })
 
@@ -44,10 +49,12 @@ router.post('/', async (req, res) => {
     })
     try {
         await addFriend.save()
-        res.status(201).json({ message: "User added successfully" })
+        res.status(201).json({message:"User added successfully"})
+        // res.status(201).redirect('/')
     } catch (error) {
         // 400== if user gave us a bad data
         res.status(400).json({ message: error.message })
+        // res.status(500).render(error)
     }
 })
 
