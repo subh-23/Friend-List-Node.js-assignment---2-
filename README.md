@@ -43,7 +43,7 @@ Start the server
 ### Get all friends
 
 ```http
-  GET /friends
+  http://localhost:3000/friends
 ```
 #### This returns the following response.
 ```bash
@@ -75,7 +75,7 @@ Start the server
 ### Get specific friend
 
 ```http
-  GET /friends/${id}
+  http://localhost:3000/friends/62985ed8079de9fc90c02945
 ```
 
 #### This returns the following response.
