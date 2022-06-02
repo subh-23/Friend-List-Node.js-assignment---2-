@@ -81,12 +81,11 @@ Start the server
 #### This returns the following response.
 ```bash
 {
-  Title: 'Jai Bhim',
-  movie_release_year: '2021',
-  imdb_rating: '8.9',
-  summary: 'When a tribal man is arrested for a case of alleged theft, his wife turns to a human-rights lawyer to help bring justice.',
-  duration: '2h 44m',
-  awards: '3 wins'
+  "_id": "62985ed8079de9fc90c02945",
+  "name": "Elon Musk",
+  "nickname": "Elon",
+  "time": "2022-06-02T06:55:20.304Z",
+  "__v": 0
 }
 ```
 
