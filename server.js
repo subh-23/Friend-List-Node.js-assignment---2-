@@ -16,7 +16,6 @@ db.once('open', () => console.log('Connected to database'))
 //set up middlewares
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(bodyParser.urlencoded({ extended: false }))
 
 
 //friend route to handle data
