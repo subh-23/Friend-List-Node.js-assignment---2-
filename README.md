@@ -1,5 +1,5 @@
 
-# Friend List (Node.js assignment - 2)
+# Friend List
 
 This project is based on a assignment for Fullstack intern role at Talentglass.ai
 
