@@ -52,14 +52,13 @@ Start the server
   GET /friends/${id}
 ```
 
-#### Post a friend
+#### Post a specific friend
 
 ```bash
 {
   "name": "Elon Musk",
   "nickname": "Elon"
 }
-  
 ```
 
 | Parameter | Type     | Description                       |
